@@ -1,0 +1,6 @@
+interface:
+  display_name: "sho (證)"
+  short_description: "Pattern-based diagnosis for LLM systems"
+  default_prompt: "Use $sho to diagnose this LLM/application issue as a systemic pattern (證): gather 四診 evidence, map 五臓 subsystems and 六淫 failure modes, identify root cause, and propose treatment and prevention."
+policy:
+  allow_implicit_invocation: true
